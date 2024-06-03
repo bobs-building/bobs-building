@@ -161,6 +161,7 @@ export function getNextVid() {
 
 export function count()
 {
-           i++;
+  i++;
+  return i;
 }
 
