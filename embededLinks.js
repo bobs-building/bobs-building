@@ -147,16 +147,16 @@ export const vids = [
 var i = 0;
            
 function getNextVid() {
-  i++;
-  $newIFrame1.setAttribute("src", vids[i]);
-  i++;
-  $newIFrame2.setAttribute("src", vids[i]);
-  i++;
-  $newIFrame3.setAttribute("src", vids[i]);
-  i++;
-  $newIFrame4.setAttribute("src", vids[i]);
-  i++;
-  $newIFrame5.setAttribute("src", vids[i]);
+
+  $newIFrame1.setAttribute("src", vids[count()]);
+
+  $newIFrame2.setAttribute("src", vids[count()]);
+
+  $newIFrame3.setAttribute("src", vids[count()]);
+
+  $newIFrame4.setAttribute("src", vids[count());
+
+  $newIFrame5.setAttribute("src", vids[count()]);
 }
 
 export function count()
