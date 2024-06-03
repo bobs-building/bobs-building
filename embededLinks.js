@@ -146,7 +146,7 @@ export const vids = [
 
 var i = 0;
            
-export function getNextVid() {
+function getNextVid() {
   i++;
   $newIFrame1.setAttribute("src", vids[i]);
   i++;
