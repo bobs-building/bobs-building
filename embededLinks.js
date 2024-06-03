@@ -1,4 +1,4 @@
-export const vids = [
+const vids = [
 "https://spankbang.com/73skr/embed/" ,
 "https://spankbang.com/7p8uw/embed/" ,
 "https://spankbang.com/8gk42/embed/" ,
@@ -159,7 +159,7 @@ function getNextVid() {
   $newIFrame5.setAttribute("src", vids[count()]);
 }
 
-export function count()
+function count()
 {
   i++;
   return i;
