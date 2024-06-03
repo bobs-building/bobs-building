@@ -154,7 +154,7 @@ function getNextVid() {
 
   $newIFrame3.setAttribute("src", vids[count()]);
 
-  $newIFrame4.setAttribute("src", vids[count());
+  $newIFrame4.setAttribute("src", vids[count()]);
 
   $newIFrame5.setAttribute("src", vids[count()]);
 }
