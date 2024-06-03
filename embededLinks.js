@@ -198,7 +198,7 @@ document.addEventListener('contextmenu', event => event.preventDefault());
   
             var $newIFrame2 = document.createElement("iframe");
             $newIFrame2.setAttribute("src", vids[count()]);
-            $newIFrame1.setAttribute("allow", "fullscreen");
+            $newIFrame1.setAttribute("allowFullscreen", "true");
             $newIFrame2.style.width = "720px";
             $newIFrame2.style.height = "480px";
             document.body.prepend($newIFrame2);
