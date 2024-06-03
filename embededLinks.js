@@ -158,3 +158,5 @@ function getNextVid() {
   i++;
   $newIFrame5.setAttribute("src", vids[i]);
 }
+
+export {i}
