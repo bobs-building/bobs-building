@@ -159,4 +159,8 @@ export function getNextVid() {
   $newIFrame5.setAttribute("src", vids[i]);
 }
 
+export function count()
+{
+           i++;
+}
 
