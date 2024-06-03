@@ -191,30 +191,35 @@ document.addEventListener('contextmenu', event => event.preventDefault());
             
             var $newIFrame1 = document.createElement("iframe");
             $newIFrame1.setAttribute("src", vids[count()]);
+            $newIFrame1.setAttribute("allow", "fullscreen");
             $newIFrame1.style.width = "720px";
             $newIFrame1.style.height = "480px";
             document.body.prepend($newIFrame1);
   
             var $newIFrame2 = document.createElement("iframe");
             $newIFrame2.setAttribute("src", vids[count()]);
+            $newIFrame1.setAttribute("allow", "fullscreen");
             $newIFrame2.style.width = "720px";
             $newIFrame2.style.height = "480px";
             document.body.prepend($newIFrame2);
 
             var $newIFrame3 = document.createElement("iframe");
             $newIFrame3.setAttribute("src", vids[count()]);
+            $newIFrame1.setAttribute("allow", "fullscreen");
             $newIFrame3.style.width = "720px";
             $newIFrame3.style.height = "480px";
             document.body.prepend($newIFrame3);
 
             var $newIFrame4 = document.createElement("iframe");
             $newIFrame4.setAttribute("src", vids[count()]);
+            $newIFrame1.setAttribute("allow", "fullscreen");
             $newIFrame4.style.width = "720px";
             $newIFrame4.style.height = "480px";
             document.body.prepend($newIFrame4);
 
             var $newIFrame5 = document.createElement("iframe");
             $newIFrame5.setAttribute("src", vids[count()]);
+            $newIFrame1.setAttribute("allow", "fullscreen");
             $newIFrame5.style.width = "720px";
             $newIFrame5.style.height = "480px";
             document.body.prepend($newIFrame5);
