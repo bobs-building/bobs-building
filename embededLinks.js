@@ -165,3 +165,70 @@ function count()
   return i;
 }
 
+
+
+
+
+
+document.addEventListener('contextmenu', event => event.preventDefault());
+
+
+           
+            
+
+            
+
+
+
+
+
+
+
+            
+
+            
+
+            
+            var $newIFrame1 = document.createElement("iframe");
+            $newIFrame1.setAttribute("src", vids[count()]);
+            $newIFrame1.style.width = "720px";
+            $newIFrame1.style.height = "480px";
+            document.body.prepend($newIFrame1);
+  
+            var $newIFrame2 = document.createElement("iframe");
+            $newIFrame2.setAttribute("src", vids[count()]);
+            $newIFrame2.style.width = "720px";
+            $newIFrame2.style.height = "480px";
+            document.body.prepend($newIFrame2);
+
+            var $newIFrame3 = document.createElement("iframe");
+            $newIFrame3.setAttribute("src", vids[count()]);
+            $newIFrame3.style.width = "720px";
+            $newIFrame3.style.height = "480px";
+            document.body.prepend($newIFrame3);
+
+            var $newIFrame4 = document.createElement("iframe");
+            $newIFrame4.setAttribute("src", vids[count()]);
+            $newIFrame4.style.width = "720px";
+            $newIFrame4.style.height = "480px";
+            document.body.prepend($newIFrame4);
+
+            var $newIFrame5 = document.createElement("iframe");
+            $newIFrame5.setAttribute("src", vids[count()]);
+            $newIFrame5.style.width = "720px";
+            $newIFrame5.style.height = "480px";
+            document.body.prepend($newIFrame5);
+
+            var $newButton1 = document.createElement("button");
+            $newButton1.setAttribute("onclick", "getNextVid()");
+            $newButton1.textContent = "NEXT";
+            $newButton1.style.width = "50px";
+            $newButton1.style.height = "30px";
+            document.body.prepend($newButton1);
+
+            var $newButton2 = document.createElement("button");
+            $newButton2.setAttribute("onclick", "getNextVid()");
+            $newButton2.textContent = "NEXT";
+            $newButton2.style.width = "50px";
+            $newButton2.style.height = "30px";
+            document.body.appendChild($newButton2);
