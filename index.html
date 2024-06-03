@@ -67,7 +67,7 @@
             document.addEventListener('contextmenu', event => event.preventDefault());
 
 
-            import * from "/embededLinks.js";
+            import * as embed from "/embededLinks.js";
             
 
             
@@ -84,48 +84,48 @@
 
             
             var $newIFrame1 = document.createElement("iframe");
-            $newIFrame1.setAttribute("src", vids[i]);
+            $newIFrame1.setAttribute("src", vids[embed.i]);
             $newIFrame1.style.width = "720px";
             $newIFrame1.style.height = "480px";
             document.body.prepend($newIFrame1);
   
             var $newIFrame2 = document.createElement("iframe");
-            i++;
-            $newIFrame2.setAttribute("src", vids[i]);
+            embed.i++;
+            $newIFrame2.setAttribute("src", vids[embed.i]);
             $newIFrame2.style.width = "720px";
             $newIFrame2.style.height = "480px";
             document.body.prepend($newIFrame2);
 
             var $newIFrame3 = document.createElement("iframe");
-            i++;
-            $newIFrame3.setAttribute("src", vids[i]);
+            embed.i++;
+            $newIFrame3.setAttribute("src", vids[embed.i]);
             $newIFrame3.style.width = "720px";
             $newIFrame3.style.height = "480px";
             document.body.prepend($newIFrame3);
 
             var $newIFrame4 = document.createElement("iframe");
-            i++;
-            $newIFrame4.setAttribute("src", vids[i]);
+            embed.i++;
+            $newIFrame4.setAttribute("src", vids[embed.i]);
             $newIFrame4.style.width = "720px";
             $newIFrame4.style.height = "480px";
             document.body.prepend($newIFrame4);
 
             var $newIFrame5 = document.createElement("iframe");
-            i++;
-            $newIFrame5.setAttribute("src", vids[i]);
+            embed.i++;
+            $newIFrame5.setAttribute("src", vids[embed.i]);
             $newIFrame5.style.width = "720px";
             $newIFrame5.style.height = "480px";
             document.body.prepend($newIFrame5);
 
             var $newButton1 = document.createElement("button");
-            $newButton1.setAttribute("onclick", "getNextVid()");
+            $newButton1.setAttribute("onclick", "embed.getNextVid()");
             $newButton1.textContent = "NEXT";
             $newButton1.style.width = "50px";
             $newButton1.style.height = "30px";
             document.body.prepend($newButton1);
 
             var $newButton2 = document.createElement("button");
-            $newButton2.setAttribute("onclick", "getNextVid()");
+            $newButton2.setAttribute("onclick", "embed.getNextVid()");
             $newButton2.textContent = "NEXT";
             $newButton2.style.width = "50px";
             $newButton2.style.height = "30px";
