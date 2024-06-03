@@ -1,4 +1,4 @@
-const vids = [
+export const vids = [
 "https://spankbang.com/73skr/embed/" ,
 "https://spankbang.com/7p8uw/embed/" ,
 "https://spankbang.com/8gk42/embed/" ,
@@ -141,12 +141,12 @@ const vids = [
 "https://spankbang.com/8lrj1/embed/" 
 ];
 
-export {vids}
 
 
-var i = 0;
+
+export var i = 0;
            
-function getNextVid() {
+export function getNextVid() {
   i++;
   $newIFrame1.setAttribute("src", vids[i]);
   i++;
@@ -159,4 +159,4 @@ function getNextVid() {
   $newIFrame5.setAttribute("src", vids[i]);
 }
 
-export {i}
+
