@@ -1,6 +1,5 @@
 const vids = [
 "https://spankbang.com/73skr/embed/" ,
-"https://spankbang.com/8do98/embed/" ,
 "https://spankbang.com/7p8uw/embed/" ,
 "https://spankbang.com/8gk42/embed/" ,
 "https://spankbang.com/5nzmj/embed/" ,
